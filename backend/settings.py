@@ -41,7 +41,7 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "E38 - AI Analysis"
+    title: str = "AI Analysis"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
     chat_title: str = "Salve, mi dica il suo nome e il ruolo che ricopre in Cosiam S.r.l."
