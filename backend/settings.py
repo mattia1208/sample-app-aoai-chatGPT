@@ -44,7 +44,7 @@ class _UiSettings(BaseSettings):
     title: str = "AI Analysis"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
-    chat_title: str = "Salve, mi dica il suo nome e il ruolo che ricopre in Cosiam S.r.l."
+    chat_title: str = "Ciao, dimmi il tuo nome e il ruolo che ricopri in Cosiam!"
     chat_description: str = "Questo chatbot è configurato per analizzare le attività svolte quotidianamente ed individuare possibili applicazioni pratiche dell’AI."
     favicon: str = "/favicon.ico"
     show_share_button: bool = False
