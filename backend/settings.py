@@ -42,11 +42,11 @@ class _UiSettings(BaseSettings):
     )
 
     title: str = "E38 - AI Analysis"
-    logo: Optional[str] = "/assets/E38.png"
-    chat_logo: Optional[str] = "/assets/E38.png"
+    logo: Optional[str] = "/E38.png"
+    chat_logo: Optional[str] = "/E38.png"
     chat_title: str = "Salve, mi dica il suo nome e il ruolo che ricopre in Cosiam S.r.l."
     chat_description: str = "Questo chatbot è configurato per analizzare le attività svolte quotidianamente ed individuare possibili applicazioni pratiche dell’AI."
-    favicon: str = "/assets/E38.png"
+    favicon: str = "/E38.png"
     show_share_button: bool = False
     show_chat_history_button: bool = False
 
